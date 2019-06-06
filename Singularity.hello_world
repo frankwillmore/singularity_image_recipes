@@ -6,6 +6,8 @@ From: centos
    # downloaded and upacked but before entering the 
    # container environment
    
+   # Frank wuz here
+   
    # this is the path on the local system to 
    # what will become your container's root directory
    echo ${SINGULARITY_ROOTFS}
