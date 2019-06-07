@@ -5,6 +5,7 @@ From: centos
    # make directory for test MPI program
    mkdir ${SINGULARITY_ROOTFS}/mpitestapp
    cp example_codes/pi.c ${SINGULARITY_ROOTFS}/mpitestapp/
+   # Frank was here
 
 %post
    # install development tools
