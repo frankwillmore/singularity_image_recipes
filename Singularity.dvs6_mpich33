@@ -5,6 +5,7 @@ From: jtchilders/singularity_image_recipes:devtoolset6
    # copy test script to container
    mkdir $SINGULARITY_ROOTFS/myapp
    cp example_codes/pi.py $SINGULARITY_ROOTFS/myapp
+   #Frank was here
 
 %post
    yum install -y wget
